@@ -15,36 +15,38 @@
           <input id ="name" class="form-control" type="text">
         </div>
         <div class="form-group">
-          <label for="experience">Choose your experience with coding</label>
+          <div class="input-group-prepend">
+            <label for="experience"class="input-group-text" >Choose your experience with coding</label>
+          </div>
           <div>
-            <select name="exp" id="experience">
+            <select name="exp" id="experience" class="custom-select">
                 <option value="">--Please choose an option--</option>
-                <option value="none">None</option>
-                <option value="good">Less than 5 years</option>
-                <option value="best">More than 5 years</option>
+                <option value="none">Eager to learn</option>
+                <option value="some">Some experience</option>
+                <option value="lot">Well experienced</option>
             </select>
           </div>
         </div>
 
       
-        <p> What do you prefer to do in your free time?</p>
+        <p> What would you like to become in the field of technology</p>
 
         <div>
-          <input type="radio" id="book" name="freetime" value="book"
+          <input type="radio" id="UX-designer" name="goal" value="book"
                 checked>
-          <label for="book">Read Books</label>
+          <label for="UX-designer">UX-designer</label>
         </div>
         <div>
-          <input type="radio" id="movie" name="freetime" value="movie">
-          <label for="movie">Watch Movie</label>
+          <input type="radio" id="fullStack" name="goal" value="fullStack">
+          <label for="fullStack">fullStack</label>
         </div>
         <div>
-          <input type="radio" id="gaming" name="freetime" value="gaming">
-          <label for="gaming">Gaming</label>
+          <input type="radio" id="dataScientist" name="goal" value="dataScientist">
+          <label for="dataScientist">dataScientist</label>
         </div>
 
       
-        <p>What would you like to become in the field of technology</p>
+        <!--<p>What would you like to become in the field of technology</p>
 
         <div>
           <input type="checkbox" id="UX-designer" name="UX-designer"
@@ -60,12 +62,12 @@
         <div>
           <input type="checkbox" id="dataScientist" name="dataScientist">
           <label for="dataScientist">Data Scientist</label>
-        </div>
+        </div>-->
 
         <div>
-          <label for="hours">How many hours a week can you commit</label>
+          <label for="hours_commit">How many hours a week can you commit</label>
           <div>
-            <select name="hours" id="hours">
+            <select name="hours_commit" id="hours_commit">
                 <option value="">--Please choose an option--</option>
                 <option value="10">10hrs per week</option>
                 <option value="20">20 hrs a week</option>
@@ -99,7 +101,7 @@
 
 
 
-
+<button type="submit" class="button" >Submit</button>
 
 
 
