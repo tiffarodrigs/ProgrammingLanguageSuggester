@@ -10,17 +10,23 @@
   <body>
     <div class =container>
       <form id="suggester">
-        <label for="name">Name :</label>
-        <input id ="name" type="text">
+        <div >
+          <label for="name">Name :</label>
+          <input id ="name" class="form-control" type="text">
+        </div>
+        <div class="form-group">
+          <label for="experience">Choose your experience with coding</label>
+          <div>
+            <select name="exp" id="experience">
+                <option value="">--Please choose an option--</option>
+                <option value="none">None</option>
+                <option value="good">Less than 5 years</option>
+                <option value="best">More than 5 years</option>
+            </select>
+          </div>
+        </div>
 
-        <label for="experience">Choose your experience with coding</label>
-        <select name="exp" id="experience">
-            <option value="">--Please choose an option--</option>
-            <option value="none">None</option>
-            <option value="good">Less than 5 years</option>
-            <option value="best">More than 5 years</option>
-        </select>
-
+      
         <p> What do you prefer to do in your free time?</p>
 
         <div>
@@ -28,18 +34,16 @@
                 checked>
           <label for="book">Read Books</label>
         </div>
-
         <div>
           <input type="radio" id="movie" name="freetime" value="movie">
           <label for="movie">Watch Movie</label>
         </div>
-
-
         <div>
           <input type="radio" id="gaming" name="freetime" value="gaming">
           <label for="gaming">Gaming</label>
         </div>
 
+      
         <p>What would you like to become in the field of technology</p>
 
         <div>
@@ -57,6 +61,48 @@
           <input type="checkbox" id="dataScientist" name="dataScientist">
           <label for="dataScientist">Data Scientist</label>
         </div>
+
+        <div>
+          <label for="hours">How many hours a week can you commit</label>
+          <div>
+            <select name="hours" id="hours">
+                <option value="">--Please choose an option--</option>
+                <option value="10">10hrs per week</option>
+                <option value="20">20 hrs a week</option>
+                <option value="20_more">More than 20 hrs a week</option>
+            </select>
+          </div>
+        </div>
+
+        <div>
+          <label for="duration">What is your time frame to learn a language</label>
+          <div>
+            <select name="duration" id="duration">
+                <option value="">--Please choose an option--</option>
+                <option value="1_month">1 month</option>
+                <option value="3_month">3 months</option>
+                <option value="5_month">5 months</option>
+            </select>
+          </div>
+        </div>
+        <div>
+          <label for="decision">What made you to decide to learn a programming language</label>
+          <div>
+            <select name="decision" id="decision">
+                <option value="">--Please choose an option--</option>
+                <option value="hype_about">To see what all the hype is about</option>
+                <option value="expand_knowledge">To expand my knowledge</option>
+                <option value="implement_project">To implement new technology in my current project </option>
+            </select>
+          </div>
+        </div>
+
+
+
+
+
+
+
 
       </form>
 
