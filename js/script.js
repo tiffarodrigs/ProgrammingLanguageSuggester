@@ -9,6 +9,7 @@ $("document").ready(function(){
 
     let hours_commit= $( "#hours_commit" ).val();
     let duration=$( "#duration" ).val();
+    let output="";
    
 
     if(experience==="none")
@@ -17,36 +18,36 @@ $("document").ready(function(){
       {
         if(decision="hype_about")
         {
-          console.log("HTML/CSS WOULD BE A GOOD CHOICE TO BEGIN WITH")
+          output= name+", HTML/CSS WOULD BE A GOOD CHOICE TO BEGIN WITH";
         }
        // else if(decision="expand_knowledge")
         else
         {
-          console.log("JavaScript would be a good choice to start with")
+          output= name+", JavaScript would be a good choice to start with";
         }
       }
       else{
-        console.log("JavaScript would be a good choice to start with");
+        output= name+", JavaScript would be a good choice to start with";
 
       }
     }
 
     else if((experience==="some" && goal==="fullStack")||(experience==="good" && goal==="fullStack")){
-      console.log(" JAVASCRIPT TO BECOME A FULL STACK DEVELOPER")
+      output= name+", JAVASCRIPT TO BECOME A FULL STACK DEVELOPER";
 
     }
     else if (goal==="dataScientist" ||duration==="5_months" || hours_commit==="More than 20 hrs a week"|| decision==="implement_project")
     {
-      console.log("PYTHON WOULD WE A GOOD CHOICE TO CONTINUE WITH IN THIS FIELD")
+      output= name+", PYTHON WOULD WE A GOOD CHOICE TO CONTINUE WITH IN THIS FIELD";
 
 
     }
     else
     {
-      console.log(" else suggest JavaScript")
+      output= name+", JavaScript is versatile language which can be useful for beginner or experienced";
     }
   
-    
+    $("#outputdiv").text(output).show();
 
   });
 
