@@ -18,7 +18,7 @@ $("document").ready(function(){
       {
         if(decision="hype_about")
         {
-          output= name+", HTML/CSS WOULD BE A GOOD CHOICE TO BEGIN WITH";
+          output= name+", HTML/CSS would be good choice to begin with";
         }
        // else if(decision="expand_knowledge")
         else
@@ -33,12 +33,12 @@ $("document").ready(function(){
     }
 
     else if((experience==="some" && goal==="fullStack")||(experience==="good" && goal==="fullStack")){
-      output= name+", JAVASCRIPT TO BECOME A FULL STACK DEVELOPER";
+      output= name+", JavaScript to become a Full Stack Developer";
 
     }
     else if (goal==="dataScientist" ||duration==="5_months" || hours_commit==="More than 20 hrs a week"|| decision==="implement_project")
     {
-      output= name+", PYTHON WOULD WE A GOOD CHOICE TO CONTINUE WITH IN THIS FIELD";
+      output= name+", Python  would be a good choice for you";
 
 
     }
@@ -47,7 +47,10 @@ $("document").ready(function(){
       output= name+", JavaScript is versatile language which can be useful for beginner or experienced";
     }
   
-    $("#outputdiv").text(output).show();
+
+    $("#input").slideUp(400);
+    $("#outputdiv").text(output).slideDown();
+ 
 
   });
 
