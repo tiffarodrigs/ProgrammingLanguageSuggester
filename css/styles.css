@@ -36,16 +36,20 @@ button
   font-size: large;
   text-align: center;
 }
-h3,h5{
+h2,h5{
   text-align: center;
-  margin: 10px 25%;
+  margin: 10px 25% 0px 25%;
+  background-color: #fbf7dd;
+  color: midnightblue;
 }
+
 .btn_submit{
   margin: 10px 25%;
   text-align: center;
   background:none;
 }
 h5{
+  margin: 0px 25%;
   font-style: italic;
 }
 #outputdiv
