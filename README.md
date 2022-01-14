@@ -9,7 +9,7 @@
 * _HTML_
 * _JavaScript_
 * _JQuery_
-* _here_
+* 
 
 ## Description
 
