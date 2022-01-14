@@ -20,7 +20,6 @@ $("document").ready(function(){
         {
           output= name+", HTML/CSS would be good choice to begin with";
         }
-       // else if(decision="expand_knowledge")
         else
         {
           output= name+", JavaScript would be a good choice to start with";
@@ -49,6 +48,7 @@ $("document").ready(function(){
   
 
     $("#input").slideUp(400);
+    $("h5").hide();
     $("#outputdiv").text(output).slideDown();
  
 

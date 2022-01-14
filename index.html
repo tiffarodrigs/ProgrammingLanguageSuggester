@@ -18,85 +18,71 @@
         </div>
         <form id="suggester" >
           <div id="input">
-            <ul>
-              <div class="question" >
-                <li><label for="name">Name :</label></li>
-                    <input id ="name"  type="text" required>
-              </div>
-              <div class="question">
-                
-                  <li> <label for="experience" >Choose your experience with coding</label></li> 
-                  <select name="exp" id="experience" >
-                      <option value="">--Please choose an option--</option>
-                      <option value="none">Eager to start new</option>
-                      <option value="some">Some experience</option>
-                      <option value="good">Well experienced</option>
-                  </select>
-                
-              </div>
 
-              <div class="question">
-                <li><p> What would you like to become in the field of technology</p></li>
-                    <input type="radio" id="UX-designer" name="goal" value="UX-designer"
-                          checked>
-                    <label for="UX-designer">UX-designer</label>
-                    
-                    <input type="radio" id="fullStack" name="goal" value="fullStack">
-                    <label for="fullStack">Full Stack Developer</label>
-                    
-                    <input type="radio" id="dataScientist" name="goal" value="dataScientist">
-                    <label for="dataScientist">dataScientist</label>
-                
-              </div>  
+            <div class="question" >
+              <label for="name">Name :</label>
+              <input id ="name"  type="text" required>
+            </div>
 
-              <div class="question">
-                <li><label for="hours_commit">How many hours a week can you commit</label></li>
-                
-                  <select name="hours_commit" id="hours_commit">
-                        <option value="">--Please choose an option--</option>
-                        <option value="10">10hrs per week</option>
-                        <option value="20">20 hrs a week</option>
-                        <option value="20_more">More than 20 hrs a week</option>
-                  </select>
-              </div>
+            <div class="question">
+              <label for="experience" >Choose your experience with coding : </label> <br>
+                <select name="exp" id="experience" >
+                    <option value="">--Please choose an option--</option>
+                    <option value="none">Eager to start new</option>
+                    <option value="some">Some experience</option>
+                    <option value="good">Well experienced</option>
+                </select>
+            </div>
 
-              <div class="question">
-                <li><label for="duration">What is your time frame to learn a language</label></li>
-                  
-                    <select name="duration" id="duration">
-                        <option value="">--Please choose an option--</option>
-                        <option value="1_month">1 month</option>
-                        <option value="3_months">3 months</option>
-                        <option value="5_months">5 months</option>
-                    </select>
-              </div>
+            <div class="question">
+              <p> What would you like to become in the field of technology ? </p>
+              <input type="radio" id="UX-designer" name="goal" value="UX-designer"
+                    checked>
+              <label for="UX-designer">UX-designer</label>
+              
+              <input type="radio" id="fullStack" name="goal" value="fullStack">
+              <label for="fullStack">Full Stack Developer</label>
+              
+              <input type="radio" id="dataScientist" name="goal" value="dataScientist">
+              <label for="dataScientist">Data Scientist</label>
+            </div>  
 
-              <div class="question">
-                <li><label for="decision">What made you to decide to learn a programming language</label></li>
-                  
-                    <select name="decision" id="decision">
-                        <option value="">--Please choose an option--</option>
-                        <option value="hype_about">To see what all the hype is about</option>
-                        <option value="expand_knowledge">To expand my knowledge</option>
-                        <option value="implement_project">To implement new technology in my current project </option>
-                    </select>
-              </div>
+            <div class="question">
+              <label for="hours_commit">How many hours a week can you commit ? </label><br>
+              <select name="hours_commit" id="hours_commit">
+                    <option value="">--Please choose an option--</option>
+                    <option value="10">10hrs per week</option>
+                    <option value="20">20 hrs a week</option>
+                    <option value="20_more">More than 20 hrs a week</option>
+              </select>
+            </div>
 
+            <div class="question">
+              <label for="duration">What is your time frame to learn a language ? </label><br>
+                <select name="duration" id="duration">
+                    <option value="">--Please choose an option--</option>
+                    <option value="1_month">1 month</option>
+                    <option value="3_months">3 months</option>
+                    <option value="5_months">5 months</option>
+                </select>
+            </div>
 
-            </ul>
-            <div></div>
+            <div class="question">
+              <label for="decision">What made you to decide to learn a programming language ? </label><br>
+                <select name="decision" id="decision">
+                    <option value="">--Please choose an option--</option>
+                    <option value="hype_about">To see what all the hype is about</option>
+                    <option value="expand_knowledge">To expand my knowledge</option>
+                    <option value="implement_project">To implement new technology in my current project </option>
+                </select>
+            </div>
             <div class="btn_submit"><button type="submit" class="button" >Submit</button></div>
             
           </div>
             
           <div id="outputdiv"></div>
-            
-        
-
         </form>
-      </div>  
-
+      </div>
     </div>
-
   </body>
 </html>

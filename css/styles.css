@@ -4,8 +4,8 @@
 }
 .question
 {
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 body{
@@ -32,6 +32,9 @@ button
 #suggester
 {
   margin: 15px 25%;
+  background-color: beige;
+  font-size: large;
+  text-align: center;
 }
 h3,h5{
   text-align: center;
@@ -48,4 +51,7 @@ h5{
 #outputdiv
 {
   background:none;
+  font-size: xx-large;
+  font-style: italic;
+  text-align: center;
 }
