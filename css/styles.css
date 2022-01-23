@@ -1,60 +1,65 @@
-#outputdiv
-{
-  display:none
+#outputdiv {
+  display: none
 }
-.question
-{
+
+.question {
   padding-top: 20px;
   padding-bottom: 20px;
 }
 
-body{
+body {
   font-family: 'Roboto', sans-serif;
 
 }
-div:nth-child(even) 
-{
+
+div:nth-child(even) {
   background: rgb(243, 242, 242);
 }
-select{
-  background:rgb(243, 242, 242);
-  
+
+select {
+  background: rgb(243, 242, 242);
+
 }
-select,#duration{
-  background:none;
-  
+
+select,
+#duration {
+  background: none;
+
 }
-button
-{
-  padding:10px;
-  margin :10px;
+
+button {
+  padding: 10px;
+  margin: 10px;
 }
-#suggester
-{
+
+#suggester {
   margin: 15px 25%;
   background-color: beige;
   font-size: large;
   text-align: center;
 }
-h2,h5{
+
+h2,
+h5 {
   text-align: center;
   margin: 10px 25% 0px 25%;
   background-color: #fbf7dd;
   color: midnightblue;
 }
 
-.btn_submit{
+.btn_submit {
   margin: 10px 25%;
   text-align: center;
-  background:none;
+  background: none;
 }
-h5{
+
+h5 {
   margin: 0px 25%;
   font-style: italic;
 }
-#outputdiv
-{
-  background:none;
+
+#outputdiv {
+  background: none;
   font-size: xx-large;
   font-style: italic;
   text-align: center;
